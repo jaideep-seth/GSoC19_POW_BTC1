@@ -87,6 +87,7 @@ python3 integrity.py 'path of .torrent file' 'Path of downloaded contents'
 
 ![](images/done.png)
 
+<br/>
 
 
 ## Acknowledgments
