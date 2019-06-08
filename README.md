@@ -45,18 +45,14 @@ python2 Uploading/seed_final.py
 ![](images/post.png)
 
 ### For Downloading:
-- Install modules within requirements.txt
-```
-pip3 install -r requirements.txt 
 
-```
-- Start the BitTorrent Download daemon:
+- **Start** the BitTorrent Download daemon:
 
 ```
 python3 Downloading/torrent_cli.py start &
 ```
 
-- Add the .torrent file and the directory to download contents into:
+- **Add the torrent** and specify the directory to download contents into:
 
 ```
 python3 Downloading/torrent_cli.py add '.torrent file' -d 'Download directory'
@@ -68,7 +64,7 @@ watch python3 torrent_cli.py status
 
 ![](images/downloading.png)
 
-- After waiting for 100% download completion, check for data integrity:
+- After **waiting for 100% download completion**, check for **data integrity**:
 ```
 python2 integrity.py 'path of .torrent file' 'Path of downloaded contents'
 ```
