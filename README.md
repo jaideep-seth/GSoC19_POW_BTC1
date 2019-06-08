@@ -3,6 +3,7 @@
 A BitTorrent Client to **create**, **seed** and **download** studies of C. Elegans through torrents. This Framework has built in **Data Integrity Checks** and utilizes **Google Drives** to View, Download and Upload desired .torrent files!
 
 <br/>
+
 ## Getting Started
 
 This will guide you through setting up this Framework, this repository is split into **2 parts**: [All functionality via Command Line Interface]
@@ -13,7 +14,7 @@ This involves **generating the Message Digest** for Data integrity checks, **cre
 #### 2) Downloading:
 This involves **selecting one of many torrents hosted** within Google Drive, **Adding torrent** to BitTorrent client and waiting for the desired contents to Download from peers into a **specified local directory**. Check for Data Integrity and you are good to go!  
 
-<br/>
+
 ## Requirements
 
 - **python libtorrent** used here.
