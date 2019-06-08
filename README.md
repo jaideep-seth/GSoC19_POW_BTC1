@@ -1,16 +1,16 @@
 # GSoC 19 POW BitTorrent Client (1):
 
-A BitTorrent Client to create, seed and download from .torrent files. This Framework has built in Data Integrity checks and utilizes Google Drives to View, Download and Upload desired .torrent files!
+A BitTorrent Client to create, seed and download from torrents. This Framework has built in Data Integrity checks and utilizes Google Drives to View, Download and Upload desired .torrent files!
 
 ## Getting Started
 
 This will guide you through setting up this Framework, this repository is split into 2 parts: [All functionality via Command Line Interface]
 
 #### 1) Uploading:
-This involves generating the Message Digest for Data integrity checks, creating .torrents and seeding the contents to other BitTorrent peers. The .torrents are then posted to Google Drives from where they can be searched/accessed based on descriptions that you provide for independent researchers.
+This involves generating the Message Digest for Data integrity checks, creating torrents and seeding their contents to other BitTorrent peers. The torrents are then posted to Google Drives from where they can be searched/accessed based on descriptions that you provide for independent researchers.
 
 #### 2) Downloading:
-This involves selecting .torrent files contained within Google Drive, Downloading the contents from peers into local machine and running Data Integrity checks.  
+This involves selecting one of many torrents hosted within Google Drive, Adding the .torrent to the BitTorrent client and waiting for the desired contents to Download from peers into a specified local directory. Check for Data Integrity and you are good to go.   
 
 
 ## Set it up!
@@ -23,7 +23,7 @@ This involves selecting .torrent files contained within Google Drive, Downloadin
 ```
 sudo apt install python-libtorrent
 ```
-- To create the Message Digest of the contents, create a .torrent file of those contents and then start seeding them.
+- Place contents within ~/UploadingTo create the Message Digest of the contents, create a .torrent file of those contents and then start seeding them.
 ```
 python2 Uploading/seed_final.py
 ```
