@@ -1,10 +1,10 @@
 # GSoC 19 POW BitTorrent Client:
 
-A BitTorrent Client to **create**, **seed** and **download** studies of C. Elegans through torrents. This Framework has built in **Data Integrity Checks** and utilizes Google Drives to View, Download and Upload desired .torrent files!
+A BitTorrent Client to **create**, **seed** and **download** studies of C. Elegans through torrents. This Framework has built in **Data Integrity Checks** and utilizes **Google Drives** to View, Download and Upload desired .torrent files!
 
 ## Getting Started
 
-This will guide you through setting up this Framework, this repository is split into 2 parts: [All functionality via Command Line Interface]
+This will guide you through setting up this Framework, this repository is split into **2 parts**: [All functionality via Command Line Interface]
 
 #### 1) Uploading:
 This involves generating the Message Digest for Data integrity checks, creating torrents and seeding their contents to other BitTorrent peers. The torrents are then posted to Google Drives from where they can be searched/accessed based on descriptions that you provide for independent researchers.
@@ -17,13 +17,13 @@ This involves selecting one of many torrents hosted within Google Drive, Adding 
 
 ### For Uploading:
 
-- python libtorrent used here.
+- **python libtorrent** used here.
 
-[python-libtorrent requires python2 and has package manager support for only Debian.]
+**[python-libtorrent requires python2 and has package manager support for only Debian.]**
 ```
 sudo apt install python-libtorrent
 ```
--First Place contents within ### ~/Uploading. Then  To create the Message Digest of the contents, create a .torrent file of those contents and then start seeding them.
+-First **Place contents within ~/Uploading**. Then  To create the Message Digest of the contents, create a .torrent file of those contents and then start seeding them.
 ```
 python2 Uploading/seed_final.py
 ```
