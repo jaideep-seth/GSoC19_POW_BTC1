@@ -1,6 +1,6 @@
 # GSoC 19 POW BitTorrent Client:
 
-A BitTorrent Client to create, seed and download from torrents. This Framework has built in Data Integrity checks and utilizes Google Drives to View, Download and Upload desired .torrent files!
+A BitTorrent Client to **create**, **seed** and **download** studies of C. Elegans through torrents. This Framework has built in **Data Integrity Checks** and utilizes Google Drives to View, Download and Upload desired .torrent files!
 
 ## Getting Started
 
