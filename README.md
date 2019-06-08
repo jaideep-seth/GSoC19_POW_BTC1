@@ -7,7 +7,7 @@ A BitTorrent Client to create, seed and download from .torrent files. This Frame
 This will guide you through setting up this Framework, this repository is split into 2 parts: [All functionality via Command Line Interface]
 
 #### 1) Uploading:
-This involves generating the Message Digest for Data integrity checks, creating .torrents and seeding the contents to other BitTorrent peers. The .torrents are then posted to Google Drives from where they can be searched/accessed based on descriptions by independent researchers.
+This involves generating the Message Digest for Data integrity checks, creating .torrents and seeding the contents to other BitTorrent peers. The .torrents are then posted to Google Drives from where they can be searched/accessed based on descriptions that you provide for independent researchers.
 
 #### 2) Downloading:
 This involves selecting .torrent files contained within Google Drive, Downloading the contents from peers into local machine and running Data Integrity checks.  
