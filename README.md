@@ -19,7 +19,7 @@ This involves selecting one of many torrents hosted within Google Drive, Adding 
 
 - **python libtorrent** used here.
 
-**[python-libtorrent requires python2 and has package manager support for only Debian.]**
+[python-libtorrent **requires** python2 and has package manager support for only Debian.]
 ```
 sudo apt install python-libtorrent
 ```
