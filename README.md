@@ -40,6 +40,10 @@ python2 Uploading/seed_final.py
 ![](images/seeding12.png)
 
 
+- Second **post torrent to Google Drive**. Also add a description for the contents of your torrent as shown below:
+
+![](images/post.png)
+
 ### For Downloading:
 - Install modules within requirements.txt
 ```
