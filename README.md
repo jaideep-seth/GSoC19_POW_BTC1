@@ -81,7 +81,7 @@ watch python3 torrent_cli.py status
 
 - After **waiting for 100% download completion**, check for **data integrity**:
 ```
-python2 integrity.py 'path of .torrent file' 'Path of downloaded contents'
+python3 integrity.py 'path of .torrent file' 'Path of downloaded contents'
 ```
 (Data integrity check shown below!)
 
