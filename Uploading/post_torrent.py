@@ -50,7 +50,7 @@ def main():
 
     # Call the Drive v3 API
     results = service.files().list(
-        pageSize=10, fields="nextPageToken, files(id, name)").execute()
+        pageSize=10, fields="nextPageToken, files(id, name, description)").execute()
     items = results.get('files', [])
 
     print("Torrents in Google Drive Before File Upload: \n\n")
