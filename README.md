@@ -1,4 +1,4 @@
-# GSoC 19 POW BitTorrent Client (1):
+# GSoC 19 POW BitTorrent Client:
 
 A BitTorrent Client to create, seed and download from torrents. This Framework has built in Data Integrity checks and utilizes Google Drives to View, Download and Upload desired .torrent files!
 
@@ -23,7 +23,7 @@ This involves selecting one of many torrents hosted within Google Drive, Adding 
 ```
 sudo apt install python-libtorrent
 ```
-- Place contents within ~/UploadingTo create the Message Digest of the contents, create a .torrent file of those contents and then start seeding them.
+-First Place contents within ### ~/Uploading. Then  To create the Message Digest of the contents, create a .torrent file of those contents and then start seeding them.
 ```
 python2 Uploading/seed_final.py
 ```
