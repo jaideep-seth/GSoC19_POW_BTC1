@@ -57,7 +57,7 @@ python3 Downloading/torrent_cli.py start &
 ```
 python3 Downloading/torrent_cli.py add '.torrent file' -d 'Download directory'
 ```
-- To watch the download progress use: (ctrl + c to exit view):
+- To **watch the download progress** use: (ctrl + c to exit view):
 ```
 watch python3 torrent_cli.py status
 ```
