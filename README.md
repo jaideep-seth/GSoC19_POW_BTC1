@@ -23,7 +23,7 @@ This involves selecting one of many torrents hosted within Google Drive, Adding 
 ```
 sudo apt install python-libtorrent
 ```
--First **Place contents within ~/Uploading**. Then run script **seed_final** as shown. This will create a torrent, the **torrent is named by the SHA hash of the contents**, then the client will begin seeding to other peers.
+- First **Place contents within ~/Uploading**. Then run script **seed_final** as shown. This will create a torrent, the **torrent is named by the SHA hash of the contents**, then the client will begin seeding to other peers.
 ```
 python2 Uploading/seed_final.py
 ```
