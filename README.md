@@ -29,7 +29,7 @@ python2 Uploading/seed_final.py
 ```
 **P.S:** Seed **indefinitely** as shown below
 
-![](images/seedin)
+![](images/seeding.png)
 
 
 ### For Downloading:
