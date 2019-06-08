@@ -46,6 +46,11 @@ python2 Uploading/seed_final.py
 
 ### For Downloading:
 
+- **Get** the desired torrent file **based on descriptions** by specifying its serial number as shown below.
+
+
+![](images/get_torrent.png)
+
 - **Start** the BitTorrent Download daemon:
 
 ```
