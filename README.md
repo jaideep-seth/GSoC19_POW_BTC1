@@ -44,9 +44,8 @@ python2 Uploading/seed_final.py
 
 ![](images/post.png)
 
-
-
-
+<br/>
+<br/>
 
 ### For Downloading:
 
