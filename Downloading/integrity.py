@@ -25,7 +25,7 @@ def folder_hash(path, verbose=0):
         for root, dirs, files in os.walk(path):
             for names in files:
                 if verbose == 1:
-                    print 'Hashing', names
+                    print('Hashing', names)
                 filepath = os.path.join(root,names)
                 try:
                     f1 = open(filepath, 'rb')
