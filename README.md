@@ -50,10 +50,11 @@ python2 Uploading/seed_final.py
 
 <br/>
 <br/>
-<br/>
+
 
 ### For Downloading:
 
+As shown below:
 - **Get** the desired torrent file **based on descriptions** by specifying its serial number as shown below.
 
 
