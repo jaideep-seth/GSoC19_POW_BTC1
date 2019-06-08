@@ -10,12 +10,10 @@ This will guide you through setting up this Framework, this repository is split 
 This involves **generating the Message Digest** for Data integrity checks, **creating torrents** and **seeding their contents** to other BitTorrent peers. The torrents are then **posted to Google Drives** from where they can be searched/accessed **based on descriptions that you provide** for independent researchers.
 
 #### 2) Downloading:
-This involves **selecting one of many torrents hosted** within Google Drive, **Adding torrent** to BitTorrent client and waiting for the desired contents to Download from peers into a **specified local directory**. Check for Data Integrity and you are good to go.   
+This involves **selecting one of many torrents hosted** within Google Drive, **Adding torrent** to BitTorrent client and waiting for the desired contents to Download from peers into a **specified local directory**. Check for Data Integrity and you are good to go!  
 
 
-## Set it up!
-
-### For Uploading:
+## Requirements:
 
 - **python libtorrent** used here.
 
@@ -23,6 +21,16 @@ This involves **selecting one of many torrents hosted** within Google Drive, **A
 ```
 sudo apt install python-libtorrent
 ```
+- install from **requirements.txt**:
+```
+pip3 install -r requirements.txt 
+
+```
+
+## Set it up!
+
+### For Uploading:
+
 - First **Place contents within ~/Uploading**. Then run script **seed_final** as shown. This will create a torrent, the **torrent is named by the SHA hash of the contents**, then the client will begin seeding to other peers.
 ```
 python2 Uploading/seed_final.py
