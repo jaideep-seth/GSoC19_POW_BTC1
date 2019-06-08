@@ -13,7 +13,7 @@ This involves **generating the Message Digest** for Data integrity checks, **cre
 This involves **selecting one of many torrents hosted** within Google Drive, **Adding torrent** to BitTorrent client and waiting for the desired contents to Download from peers into a **specified local directory**. Check for Data Integrity and you are good to go!  
 
 
-## Requirements:
+## Requirements
 
 - **python libtorrent** used here.
 
