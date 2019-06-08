@@ -19,15 +19,15 @@ This involves selecting one of many torrents hosted within Google Drive, Adding 
 
 - **python libtorrent** used here.
 
-[python-libtorrent **requires** python2 and has package manager support for only Debian.]
+[python-libtorrent **requires** python2 and has package manager **support for only Debian**.]
 ```
 sudo apt install python-libtorrent
 ```
--First **Place contents within ~/Uploading**. Then  To create the Message Digest of the contents, create a .torrent file of those contents and then start seeding them.
+-First **Place contents within ~/Uploading**. Then run script **seed_final** as shown. This will create a torrent, the **torrent is named by the SHA hash of the contents**, then the client will begin seeding to other peers.
 ```
 python2 Uploading/seed_final.py
 ```
-( Specify the file/folder withing the Uploading directory as shown here & then let it seed indefinitely. A .torrent file will be created within the Uploading Directory)  
+**P.S:** Seed **indefinitely** as shown below
 
 ![](images/seeding.png)
 
